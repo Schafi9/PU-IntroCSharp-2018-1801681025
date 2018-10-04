@@ -6,6 +6,8 @@ namespace TheUniqueNumber
     {
         static void Main(string[] args)
         {
+           
+            
             Console.WriteLine("How old are you?");
             int age = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter the last 4 digits of your faculty number here:");
@@ -13,7 +15,7 @@ namespace TheUniqueNumber
 
             double result = MyUniqueNumber(AgeAfter10Years(age), last4Digits);
 
-            Console.WriteLine("After 10 years you will be " + AgeAfter10Years(age) + " years old. " + "And your unique number is: " + result);
+            Console.WriteLine("After 10 years you will be " + AgeAfter10Years(age) + " years old. " + "And your unique number is: " + Math.Round(result, 4));
         }
 
         static int AgeAfter10Years(int currentAge)
@@ -26,7 +28,8 @@ namespace TheUniqueNumber
 
         static double MyUniqueNumber(int ageAfter10Years, int last4DigitsOfFacNumber)
         {
-            double myUniqueNumber = (ageAfter10Years * last4DigitsOfFacNumber) / 3.14;
+          
+            double myUniqueNumber = (ageAfter10Years * last4DigitsOfFacNumber) / Math.PI;
             
             return myUniqueNumber;
         }
