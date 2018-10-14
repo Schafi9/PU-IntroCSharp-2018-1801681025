@@ -29,8 +29,7 @@ namespace CalculateWightInTheSolarSystem
 
             switch (option)
             {
-                /* Here, gravitationalRatio may differ depending from where in the
-                   Internet you get the values from. */
+
                 case 1:
                     gravitationalRatio = 0.38;
                     weightOnPlanet = gravitationalRatio * weight;
@@ -76,7 +75,6 @@ namespace CalculateWightInTheSolarSystem
                     weightOnPlanet = gravitationalRatio * weight;
                     Console.WriteLine($"You weigh approximately {weightOnPlanet}kg on Pluto.");
                     break;
-                //If the option is not from the mentioned above, display a suitable message.
                 default: Console.WriteLine("Enter a valid code."); break;
             }
         }
