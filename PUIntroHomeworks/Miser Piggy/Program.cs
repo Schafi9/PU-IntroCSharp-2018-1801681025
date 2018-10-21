@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Miser_Piggy
+namespace MiserPiggy
 {
     class Program
     {
