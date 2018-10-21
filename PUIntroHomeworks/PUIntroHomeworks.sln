@@ -27,7 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week3", "Week3", "{38410212
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusTicketLuckyNumbers", "BusTicketLuckyNumbers\BusTicketLuckyNumbers.csproj", "{57CB0B1E-252A-4B08-A5D2-549E3DF1AE71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miser Piggy", "Miser Piggy\Miser Piggy.csproj", "{0903BFD8-1465-4C9C-B7A9-96EFCAD39C68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiserPiggy", "Miser Piggy\MiserPiggy.csproj", "{0903BFD8-1465-4C9C-B7A9-96EFCAD39C68}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDeckOfCards", "SimpleDeckOfCards\SimpleDeckOfCards.csproj", "{A093F2FC-213A-4FFE-A763-2ADB8A58901F}"
 EndProject
